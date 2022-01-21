@@ -28,12 +28,7 @@ RUN \
 
 # Use the latest stable release.
 # See <https://buildroot.org/download.html>.
-RUN \
-  git clone http://github.com/buildroot/buildroot \
-    --branch 2021.05.x \
-    --single-branch \
-    --depth=1 \
-    /buildroot
+RUN lscpu && sleep 99999
 
 WORKDIR /buildroot
 
